@@ -4,7 +4,7 @@ import CellListItem from './cell-list-item';
 import AddCell from './add-cell';
 import './cell-list.css';
 import { useActions } from '../hooks/use-actions';
-import { fetchCells } from '../state/action-creators/index';
+//import { fetchCells } from '../state/action-creators/index';
 
 const CellList: React.FC = () => {
   const cells = useTypedSelector(({ cells: { order, data } }) =>
