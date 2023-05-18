@@ -1,6 +1,6 @@
 {
   "name": "j-book-cli",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "bin": "dist/index.js",
   "publishConfig": {
@@ -18,10 +18,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@j-book-cli/local-client": "^1.0.0"
+    "@j-book-cli/local-client": "^2.0.0"
   },
   "devDependencies": {
-    "@j-book-cli/local-api": "^1.0.0",
+    "@j-book-cli/local-api": "^2.0.0",
     "@types/node": "^20.1.7",
     "commander": "^10.0.1",
     "esbuild": "0.8.26",
