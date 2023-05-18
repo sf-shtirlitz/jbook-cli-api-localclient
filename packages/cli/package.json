@@ -4,7 +4,8 @@
   "description": "",
   "bin": "dist/index.js",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://[registry-url]"
   },
   "files": [
     "dist"
@@ -27,5 +28,5 @@
     "esbuild": "0.8.26",
     "typescript": "^5.0.4"
   },
-  "gitHead": "6d9c1087016dfa64b5595deab171077a1e1becd5"
+  "gitHead": "f1c60c382588e92ba2dbf1671d920691a97fec4b"
 }
